@@ -1,12 +1,13 @@
 // import { a } from "react-router-dom";
 // import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
+import logo from "../../img/logo.png";
 
 function Navbar() {
-  const navigation = ["About", "Contact"];
+  // const navigation = ["About", "Contact"];
 
   return (
-    <div className="w-full bg-red-500 text-white">
+    <div className="w-full text-white">
       <nav className="container relative flex flex-wrap items-center justify-between p-4 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
@@ -18,13 +19,13 @@ function Navbar() {
                   className=" flex items-center space-x-2 text-2xl font-medium"
                 >
                   {/* logo */}
-                  <span className="w-8 text-white bg-blue-500 px-2 rounded-md">
-                    T
+                  <span className=" text-white px-2 rounded-md">
+                    <img src={logo} alt="gtech logo"/>
                   </span>
-                  <span>GTECH GLOBAL INTEGRATED</span>
+                  {/* <span>GTECH GLOBAL INTEGRATED</span> */}
                 </a>
 
-                <Disclosure.Button
+                {/* <Disclosure.Button
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-blue-500 focus:text-blue-500 focus:bg-blue-100 focus:outline-none "
                 >
@@ -47,9 +48,9 @@ function Navbar() {
                       />
                     )}
                   </svg>
-                </Disclosure.Button>
+                </Disclosure.Button> */}
 
-                <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+                {/* <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, i) => (
                       <a
@@ -67,26 +68,26 @@ function Navbar() {
                       Get Started
                     </a>
                   </>
-                </Disclosure.Panel>
+                </Disclosure.Panel> */}
               </div>
             </>
           )}
         </Disclosure>
 
-         
-        <div className="hidden text-center lg:flex lg:items-center">
+        {/* <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <a href="/" className="inline-block px-4 py-2 text-lg font-normal text-white no-underline rounded-md hover:text-blue-500 focus:text-blue-500 focus:bg-blue-100 focus:outline-none">
-                    {menu}
+                <a
+                  href="/"
+                  className="inline-block px-4 py-2 text-lg font-normal text-white no-underline rounded-md hover:text-blue-500 focus:text-blue-500 focus:bg-blue-100 focus:outline-none"
+                >
+                  {menu}
                 </a>
               </li>
             ))}
           </ul>
-        </div>
-
-       
+        </div> */}
       </nav>
     </div>
   );

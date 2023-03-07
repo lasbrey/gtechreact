@@ -21,24 +21,25 @@ function App() {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="GTECH GLOBAL INTEGRATED"
-        title=" Gtech Global R and D Network"
+        pretitle="COUNT DOWN TO GTECH GLOBAL INTEGRATED"
+        title="15TH YEARS ANNIVERSARY"
       >
-        In August 2021, as part of activities marking the firm’s 13 years
-        anniversary of our firm, the management of the firm initiated the Gtech
-        Global R and D Network – a Network of Research institutions working
-        collaboratively to strengthen Global R and D ecosystem.
-      </SectionTitle> */
+        13th August 2023 marks the 15th Year Anniversary of Gtech Global
+        Integrated Limited , we have several Philanthropic events lines. To Join
+        the celebrations, Please contact us .
+      </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <Stakeholders data={stakeOne} />
       <Stakeholders imgPos="right" data={stakeTwo} />
       <Stakeholders data={stakeThree} />
-      <SectionTitle
-        pretitle="Background"
-        title="2023 Project Kick-off Schedule"
-      ></SectionTitle>
-      <Video /> 
+      <div className="bg-[#01d1f6]">
+        <SectionTitle
+          pretitle="Background"
+          title="2023 Project Kick-off Schedule"
+        ></SectionTitle>
+        <Video />
+      </div>
 
       <Footer />
       <PopupWidget />

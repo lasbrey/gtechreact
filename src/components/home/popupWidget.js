@@ -121,12 +121,12 @@ export default function PopupWidget() {
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} Mail from Gtech Website`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value="Gtech Global Integrated"
                         {...register("from_name")}
                       />
                       <input

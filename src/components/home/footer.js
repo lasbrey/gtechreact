@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="relative">
       <Container>
 
-        <div className="my-10 text-sm text-center text-gray-600 ">
+        <div className="text-sm text-center text-gray-600 ">
           Copyright © {new Date().getFullYear()}.
           <a href="/">
             Gtech.
