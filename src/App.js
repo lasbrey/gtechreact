@@ -49,7 +49,7 @@ function App() {
           title="15TH YEARS ANNIVERSARY"
         >
           13th August 2023 marks the 15th Year Anniversary of Gtech Global
-          Integrated Limited , we have several Philanthropic events lines. To
+          Integrated Limited , we have several Philanthropic events lined up. To
           Join the celebrations, Please contact us .
         </SectionTitle>
       </div>
