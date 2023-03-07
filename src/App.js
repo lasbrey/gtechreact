@@ -36,11 +36,11 @@ function App() {
       </SectionTitle>
       <Stakeholders data={benefitOne} />
       <Benefits data={milestones} />
-      
-      <Importance data={importanceOne} />
-
       <Stakeholders  data={eventOne} />
       <Stakeholders imgPos="right" data={eventTwo} />
+      <Importance data={importanceOne} />
+
+      
 
       {/* <Importance imgPos="right" data={importanceTwo} /> */}
       <div className="bg-[#01d1f6]">

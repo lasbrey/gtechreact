@@ -37,9 +37,9 @@ const milestones = {
 };
 
 const importanceOne = {
-  title: "Gtech Global Cancer R and D Network",
+  titleTwo: "Gtech Global Cancer R and D Network",
   // image: stakeOneImg,
-  bullets: [
+  bulletsTwo: [
     {
       // title: "Focus",
       desc: "Our Researchers are working collaboratively to push the boundary of science to develop new and improved Cancer Drugs in more efficient manner.",
@@ -58,10 +58,10 @@ const importanceOne = {
       icon: <MailIcon/>
     }
   ],
-  titleTwo:
+  title:
     "Gtech Global Agricultural R and D Network is working to develop Agricultural Products with:",
   // image2: stakeTwoImg,
-  bulletsTwo: [
+  bullets: [
     {
       // title: "Focus",
       desc: "Higher Yield and Higher Productivity",
