@@ -14,14 +14,26 @@ export default function Importance(props) {
           }`}
         >
           <div>
-            <img
+            {/* <img
               src={data.image}
               width="521"
               className="rounded-xl"
               height="482"
               alt="Importance"
               layout="intrinsic"
-            />
+            /> */}
+          </div>
+          <div>
+            <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl ">
+              {data.titleTwo}
+            </h3>
+            <div className="w-full mt-5 ">
+              {data.bulletsTwo.map((item, index) => (
+                <Tance key={index} t icon={item.icon}>
+                  {item.desc}
+                </Tance>
+              ))}
+            </div>
           </div>
         </div>
 

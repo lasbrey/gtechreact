@@ -12,7 +12,7 @@ export default function Hero() {
               GTECH GLOBAL INTEGRATED
             </h1>
             <p className="py-5 text-xl leading-normal text-black lg:text-xl xl:text-2xl text-justify">
-              Global Integrated Limited is a Public Health Consulting Firm
+              Gtech Global Integrated Limited is a Public Health Consulting Firm
               established August 13th 2008 (RC 766286). The firm is based in
               Abuja and has competencies in Research and Development , community
               mobilsation, Capacity Building, Monitoring and Evaluation, Project

@@ -7,7 +7,9 @@ import {
   milestones,
   gtechAbout,
   importanceOne,
-  importanceTwo,
+  eventOne,
+  eventTwo
+  // importanceTwo,
 } from "./components/home/data";
 // import Video from "./components/home/video";
 import Benefits from "./components/home/benefits";
@@ -28,14 +30,19 @@ function App() {
         title="Gtech Global R and D Network"
       >
         In August 2021, as part of activities marking the firm’s 13 years
-        anniversary of our firm, the management of the firm initiated the Gtech
+        anniversary, the management of the firm initiated the Gtech
         Global R and D Network – a Network of Research institutions working
         collaboratively to strengthen Global R and D ecosystem
       </SectionTitle>
       <Stakeholders data={benefitOne} />
       <Benefits data={milestones} />
+      
       <Importance data={importanceOne} />
-      <Importance imgPos="right" data={importanceTwo} />
+
+      <Stakeholders  data={eventOne} />
+      <Stakeholders imgPos="right" data={eventTwo} />
+
+      {/* <Importance imgPos="right" data={importanceTwo} /> */}
       <div className="bg-[#01d1f6]">
         <SectionTitle
           pretitle="COUNT DOWN TO GTECH GLOBAL INTEGRATED"

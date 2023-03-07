@@ -14,13 +14,13 @@ function ContactGrid() {
           Suite 1, His Glory Plaza off Ademola Adetokunboh, Wuse 2 Abuja
         </p>
       </div>
-      <a href="tel:+234817000844">
+      <a href="tel:+2348081568665">
         <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow-md cursor-pointer">
           <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900  inline-flex">
             <PhoneIcon className="w-6 h-6 text-red-400" />
             <span className="ml-1">Phone</span>
           </h5>
-          <p class="mb-3 font-normal text-gray-500 ">+234-81-700-0844</p>
+          <p class="mb-3 font-normal text-gray-500 ">+234-8081568665</p>
         </div>
       </a>
       <a href="mailto:Gtech@gtechintegrated.com">
