@@ -17,7 +17,7 @@ import PopupWidget from "./components/home/popupWidget";
 
 function App() {
   return (
-    <>
+    <div className="bg-[#eee]">
       <Navbar />
       <Hero />
       <SectionTitle
@@ -43,7 +43,7 @@ function App() {
 
       <Footer />
       <PopupWidget />
-    </>
+    </div>
   );
 }
 
