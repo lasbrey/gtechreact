@@ -14,7 +14,7 @@ const benefitOne = {
 };
 const eventOne = {
   // title: "Aim of Gtech Global R and D Network",
-  desc: "L-R. MD/CEO Gtech Global Integrated and Founder Gtech Global Contraceptives R and D Network Mr. Sulaiman Gbadamosi with Prof Babatunde Salako Director General of Nigerian institute of Medical Research and Dr. Habeeb Salami Director of Global Strategy and Partnerships Gtech Global Contraceptives R and D network during the signing of official MOU between Gtech Global Integrated limited and Nigerian institute of Medical Research on the Gtech Global Contraceptives R and D Network on 5 th August 2021 at NIMR , Lagos Nigeria.",
+  desc: "L-R. MD/CEO Gtech Global Integrated and Founder Gtech Global Contraceptives R and D Network Mr. Sulaiman Gbadamosi with Prof Babatunde Salako Director General of Nigerian institute of Medical Research and Dr. Habeeb Salami Consultant of Global Strategy and Partnerships Gtech Global Contraceptives R and D network during the signing of official MOU between Gtech Global Integrated limited and Nigerian institute of Medical Research on the Gtech Global Contraceptives R and D Network on 5 th August 2021 at NIMR , Lagos Nigeria.",
   image: stakeOneImg,
 };
 const eventTwo = {
