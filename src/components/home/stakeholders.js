@@ -34,7 +34,7 @@ export default function Stakeholders(props) {
                 {data.title}
               </h3>
 
-              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl ">
+              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl text-justify">
                 {data.desc}
               </p>
             </div>

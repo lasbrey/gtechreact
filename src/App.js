@@ -4,14 +4,18 @@ import Navbar from "./components/home/navbar";
 import SectionTitle from "./components/home/sectionTitle";
 import {
   benefitOne,
-  benefitTwo,
+  milestones,
   stakeOne,
   stakeTwo,
   stakeThree,
+  gtechAbout,
+  importanceOne,
+  importanceTwo
 } from "./components/home/data";
-import Video from "./components/home/video";
+// import Video from "./components/home/video";
 import Benefits from "./components/home/benefits";
 import Stakeholders from "./components/home/stakeholders";
+import Importance from "./components/home/importance"
 import Footer from "./components/home/footer";
 import PopupWidget from "./components/home/popupWidget";
 
@@ -20,25 +24,29 @@ function App() {
     <div className="bg-[#eee]">
       <Navbar />
       <Hero />
+      <Benefits data={gtechAbout} />
       <SectionTitle
-        pretitle="COUNT DOWN TO GTECH GLOBAL INTEGRATED"
-        title="15TH YEARS ANNIVERSARY"
+        pretitle="GTECH GLOBAL INTEGRATED"
+        title="Gtech Global R and D Network"
       >
-        13th August 2023 marks the 15th Year Anniversary of Gtech Global
-        Integrated Limited , we have several Philanthropic events lines. To Join
-        the celebrations, Please contact us .
+        In August 2021, as part of activities marking the firm’s 13 years
+        anniversary of our firm, the management of the firm initiated the Gtech
+        Global R and D Network – a Network of Research institutions working
+        collaboratively to strengthen Global R and D ecosystem
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <Stakeholders data={stakeOne} />
-      <Stakeholders imgPos="right" data={stakeTwo} />
-      <Stakeholders data={stakeThree} />
+      <Stakeholders data={benefitOne} />
+      <Benefits data={milestones} />
+      <Importance data={importanceOne} />
+      <Importance imgPos="right" data={importanceTwo} />
       <div className="bg-[#01d1f6]">
         <SectionTitle
-          pretitle="Background"
-          title="2023 Project Kick-off Schedule"
-        ></SectionTitle>
-        <Video />
+          pretitle="COUNT DOWN TO GTECH GLOBAL INTEGRATED"
+          title="15TH YEARS ANNIVERSARY"
+        >
+          13th August 2023 marks the 15th Year Anniversary of Gtech Global
+          Integrated Limited , we have several Philanthropic events lines. To
+          Join the celebrations, Please contact us .
+        </SectionTitle>
       </div>
 
       <Footer />

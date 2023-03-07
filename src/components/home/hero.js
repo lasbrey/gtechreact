@@ -2,7 +2,6 @@
 import Container from "./container";
 import heroImg from "../../img/1.jpg";
 
-
 export default function Hero() {
   return (
     <div className="bg-[#01d1f6]">
@@ -12,11 +11,12 @@ export default function Hero() {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight ">
               GTECH GLOBAL INTEGRATED
             </h1>
-            <p className="py-5 text-xl leading-normal text-black lg:text-xl xl:text-2xl ">
-              The Gtech Global Contraceptives R and D Network leverages
-              connected thinking and intends to push the boundary of science and
-              innovation in developing atleast 1 new Contraceptives Technology
-              by 2030.
+            <p className="py-5 text-xl leading-normal text-black lg:text-xl xl:text-2xl text-justify">
+              Global Integrated Limited is a Public Health Consulting Firm
+              established August 13th 2008 (RC 766286). The firm is based in
+              Abuja and has competencies in Research and Development , community
+              mobilsation, Capacity Building, Monitoring and Evaluation, Project
+              Planning and Management, Data analysis and Modelling.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
