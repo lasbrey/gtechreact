@@ -1,5 +1,5 @@
 import {
-  LocationMarkerIcon
+  LocationMarkerIcon, MailIcon
 } from "@heroicons/react/outline";
 import benefitOneImg from "../../img/3.png";
 // import benefitTwoImg from "../../img/2.jpg";
@@ -53,6 +53,10 @@ const importanceOne = {
       desc: "We can innovate and develop new and improved Cancer Drugs in a more efficient manner.",
       icon: <LocationMarkerIcon />,
     },
+    {
+      desc: "To find out how to partner with us contact us at Gtech@gtechintegrated.com",
+      icon: <MailIcon/>
+    }
   ],
   titleTwo:
     "Gtech Global Agricultural R and D Network is working to develop Agricultural Products with:",
