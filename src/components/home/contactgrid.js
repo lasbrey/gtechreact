@@ -20,7 +20,7 @@ function ContactGrid() {
             <PhoneIcon className="w-6 h-6 text-red-400" />
             <span className="ml-1">Phone</span>
           </h5>
-          <p class="mb-3 font-normal text-gray-500 ">+234-8081568665</p>
+          <p class="mb-3 font-normal text-gray-500 ">+2348081568665</p>
         </div>
       </a>
       <a href="mailto:Gtech@gtechintegrated.com">
