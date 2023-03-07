@@ -2,32 +2,15 @@ import {
   LocationMarkerIcon
 } from "@heroicons/react/outline";
 import benefitOneImg from "../../img/3.png";
-import benefitTwoImg from "../../img/2.jpg";
+// import benefitTwoImg from "../../img/2.jpg";
 import stakeOneImg from "../../img/4.png";
 import stakeTwoImg from "../../img/5.png";
-import stakeThreeImg from "../../img/6.png";
+// import stakeThreeImg from "../../img/6.png";
 
 const benefitOne = {
   title: "Aim of Gtech Global R and D Network",
   desc: "The aim of the Gtech Global R and D Network is to strengthen the Global R and D Ecosystem , Support the development of new medicines and Food through a collaborative effort that is home grown in Africa with support from the Global North. Presently the focus of our research is developing new contraceptives, Cancer drugs and Improved Agricultural Products. The Network is an important Global Platform that enhances Global Health and Food Security.",
   image: benefitOneImg,
-};
-
-const stakeOne = {
-  title: "High-level Stakeholders Engagement and Strategic Partnerships",
-  desc: "L-R. MD/CEO Gtech Global Integrated and Founder Gtech Global Contraceptives R and D Network Mr. Sulaiman Gbadamosi with Prof Babatunde Salako Director General of Nigerian institute of Medical Research and Dr. Habeeb Salami Director , Global Strategy and Partnerships Gtech Global Contraceptives R and D network during the signing of official MOU between Gtech Global Integrated limited and Nigerian institute of Medical Research on the Gtech Global Contraceptives R and D Network on 5 th August 2021 at NIMR , Lagos Nigeria.",
-  image: stakeOneImg,
-};
-
-const stakeTwo = {
-  title: "High-level Stakeholders Engagement and Strategic Partnerships",
-  desc: "Signing of Memorandum of Understanding (MOU) between Gtech Global Integrated and National Bureau of Statistics (NBS) on Strengthening Data Architecture for Gtech Global Contraceptives R and D Network. The official MOU signing took place at NBS , Abuja Nigeria on 17th May 2021.",
-  image: stakeTwoImg,
-};
-const stakeThree = {
-  title: "High-level Stakeholders Engagement and Strategic Partnerships",
-  desc: "Signing of Memorandum of Understanding (MOU) between Gtech Global Integrated and National Bureau of Statistics (NBS) on Strengthening Data Architecture for Gtech Global Contraceptives R and D Network. The official MOU signing took place at NBS , Abuja Nigeria on 17th May 2021.",
-  image: stakeThreeImg,
 };
 const gtechAbout = {
   title: "Strategic Network",
@@ -90,9 +73,6 @@ const importanceTwo = {
 export {
   benefitOne,
   milestones,
-  stakeOne,
-  stakeTwo,
-  stakeThree,
   gtechAbout,
   importanceOne,
   importanceTwo,

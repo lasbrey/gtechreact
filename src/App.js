@@ -5,19 +5,17 @@ import SectionTitle from "./components/home/sectionTitle";
 import {
   benefitOne,
   milestones,
-  stakeOne,
-  stakeTwo,
-  stakeThree,
   gtechAbout,
   importanceOne,
-  importanceTwo
+  importanceTwo,
 } from "./components/home/data";
 // import Video from "./components/home/video";
 import Benefits from "./components/home/benefits";
 import Stakeholders from "./components/home/stakeholders";
-import Importance from "./components/home/importance"
+import Importance from "./components/home/importance";
 import Footer from "./components/home/footer";
-import PopupWidget from "./components/home/popupWidget";
+// import PopupWidget from "./components/home/popupWidget";
+import ContactGrid from "./components/home/contactgrid.js"
 
 function App() {
   return (
@@ -48,9 +46,14 @@ function App() {
           Join the celebrations, Please contact us .
         </SectionTitle>
       </div>
-
+      <SectionTitle pretitle="Contact us" title="Get in touch">
+        If you're interested in learning more about our public health consulting
+        services or have any questions, please don't hesitate to reach out to
+        us.
+      </SectionTitle>
+      <ContactGrid/>
       <Footer />
-      <PopupWidget />
+      {/* <PopupWidget /> */}
     </div>
   );
 }
