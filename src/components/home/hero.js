@@ -20,12 +20,12 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
+              {/* <a
                 href="/"
                 className="px-8 py-3 text-lg font-medium text-center text-white bg-red-600 rounded-md "
               >
                 About Us
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
