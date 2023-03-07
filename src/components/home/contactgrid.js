@@ -4,7 +4,7 @@ import Container from "./container";
 
 function ContactGrid() {
   return (
-    <Container className="grid grid-cols-3 gap-4 py-10 text-black">
+    <Container className="grid sm:grid-cols-3 grid-cols-1 gap-4 py-10 text-black">
       <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow-md">
           <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900  inline-flex">
             <HomeIcon className="w-6 h-6 text-red-400" />
